@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <form id="form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="price" placeholder="Price">
+        <input type="number" id="speed" placeholder="Speed">
+        <input type="text" id="imgLink" placeholder="ImgLink">
+        <input type="text" id="color" placeholder="Color">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="tasksList"></div>
+    <script src="./app.js"></script>
 </body>
 </html>
